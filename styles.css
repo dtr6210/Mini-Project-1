@@ -1,0 +1,25 @@
+.form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    font-weight: bold;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .login-form {
+    margin-top: 70px;
+       
+  }
+  
+
+  footer {
+    text-align: center;
+    margin-top: auto;
+
+  }
