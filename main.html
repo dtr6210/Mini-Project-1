@@ -10,21 +10,41 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <style>
+      .card {
+        margin-bottom: 20px;
+      }
+
+      .card-img-top {
+        height: 350px;
+        object-fit: scale-down ;
+      }
+
+      .card-body {
+        max-height: 350px;
+        overflow: auto;
+      }
+    </style>
   </head>
   <body>
     <h1>EatAndGreet.com</h1>
     <h6>Select Food Category Below</h6>
 
-    <select class="form-select" id="categoryDropdown">
+    <select class="form-select w-25" id="categoryDropdown">
         <option value="beef">Beef</option>
       <option value="chicken">Chicken</option>
+      <option value="dessert">Dessert</option>
+      <option value="miscellaneous">Miscellaneous</option>
       <option value="pasta">Pasta</option>
       <option value="pork">Pork</option>
-    </select>
+      <option value="seafood">Seafood</option>
+      <option value="vegan">Vegan</option>
+          </select>
 
     <div class="container mt-4">
       <div
-        class="row row-cols-1 row-cols-md-2 row-cols-lg-4"
+        class="row justify-content-center"
+        class="col-md-6"
         id="post-container"
       ></div>
     </div>
