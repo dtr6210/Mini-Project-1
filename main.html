@@ -10,6 +10,9 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
     <style>
       .card {
         margin-bottom: 20px;
@@ -24,10 +27,43 @@
         max-height: 350px;
         overflow: auto;
       }
+      h1 {
+    font-family: 'Berkshire Swash';
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    /* border-bottom: 5px solid black;
+    padding: 10px; */
+   
+  }
+
+  body{
+    background-color: rgb(199, 199, 165);
+  }
+
+  .container-fluid {
+        border-bottom: 5px solid black;
+    padding: 10px;
+  }
+
+
     </style>
   </head>
   <body>
-    <h1>EatAndGreet.com</h1>
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <h1>EatAndGreet</h1>
+        </div>
+        <div>
+          <!-- Add a logout button -->
+          <a href="home.html" class="btn btn-danger">Logout</a>
+        </div>
+      </div>
+    </div>
+
     <h6>Select Food Category Below</h6>
 
     <select class="form-select w-25" id="categoryDropdown">
