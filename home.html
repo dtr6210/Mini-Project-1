@@ -9,29 +9,41 @@
     rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
     crossorigin="anonymous"/>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
  
 </head>
-<body>
-    <h1>EatAndGreet.com</h1>
-    <p>Connect with friends and people all over the world through food.</p>
-<!-- Login form -->
-    <form class="login-form float-end">
-        <div class="form-group w-25">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email address">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group w-25">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
+<body class="d-flex flex-column min-vh-100">
 
-        <button type="submit" class="btn btn-primary">Login</button>
+  <div class="container-fluid">
+      <div class="row align-items-center">
+          <!-- Logo  -->
+          <div class="col-md-6 col-lg-6 col-xl-7 order-1 order-lg-1 text-center mb-4">
+              <img src="/Assets/Cream and Black Simple Elegant Catering Food Logo.png"
+                  class="img-fluid" alt="Logo Image">
+          </div>
 
-        <!--Link to sign up page  -->
-        <p class="mt-3">Don't have an account? <a href="signup.html">Sign up</a></p>
-      </form>
+          <!-- Login form  -->
+          <div class="col-md-6 col-lg-6 col-xl-5 order-2 order-lg-2">
+              <form class="login-form">
+                <div class="form-group w-50">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email address">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group w-50">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+        
+                <a href="main.html" class="btn btn-primary">Login</a>
+        
+                <!--Link to sign up page  -->
+                <p class="mt-3">Don't have an account? <a href="signup.html">Sign up</a></p>
+              </form>
+          </div>
+      </div>
+  </div>
+
 
       <!-- copyright  -->
 
